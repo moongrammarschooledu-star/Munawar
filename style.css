@@ -1253,3 +1253,7 @@ section { padding: 90px 0; }
 .thumb-6 { background: linear-gradient(135deg, var(--sky), var(--navy)); }
 .demo-badge.live { background: #E7F8EE; color: #137A3E; border-color: #B7E6C9; }
 .portfolio-info .portfolio-cta + .portfolio-cta { margin-left: 16px; }
+
+/* Accessibility: skip link, visible only on keyboard focus */
+.skip-link{position:absolute;left:-9999px;top:0;z-index:1000;background:#0D1B2A;color:#fff;padding:10px 16px;border-radius:0 0 8px 0;font-weight:600}
+.skip-link:focus{left:0}
